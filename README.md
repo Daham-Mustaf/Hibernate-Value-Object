@@ -24,3 +24,8 @@ public class Student {
 	private Address officAddress;
    ```
  within a single database table i.e. each object of Credentials is stored as a part of each Student object.
+ 
+ JPA provides the  ``` @Embeddable ``` annotation to declare that a class will be embedded by other entities.
+ The JPA annotation ``` @Embedded ``` is used to embed a type into another entity.
+
+
